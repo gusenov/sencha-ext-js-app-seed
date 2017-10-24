@@ -1,0 +1,12 @@
+{
+    "description": "A starter app for using Ext JS.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gusenov/sencha-ext-js-app-seed.git"
+    },
+    "homepage": "https://github.com/gusenov/sencha-ext-js-app-seed#readme",
+    "license": "MIT",
+    "scripts": {
+        "generate-my-app": "/opt/sencha/cmd/sencha generate app --ext MyApp ./myapp > generate-my-app.log"
+    }
+}

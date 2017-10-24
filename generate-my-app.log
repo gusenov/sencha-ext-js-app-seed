@@ -1,0 +1,61 @@
+$ npm run-script generate-my-app
+
+> @ generate-my-app sencha-ext-js-app-seed
+> /opt/sencha/cmd/sencha generate app --ext MyApp ./myapp
+
+Sencha Cmd v6.5.2.15
+[INF] Downloading package "ext@5-"
+[INF] Downloading : ....................
+[INF] Extracting package "ext@5-"
+[INF] Package is already local: ext/6.0.0.640
+[INF] Extracting  : ....................
+[INF] Loading framework from /opt/sencha/cmd/repo/extract/ext/6.0.0.640
+[INF] Copying framework to sencha-ext-js-app-seed/myapp/ext
+[INF] Processing Build Descriptor : classic (development environment)
+[INF] Loading compiler context
+[INF] Loading app json manifest...
+[INF] Appending content to sencha-ext-js-app-seed/myapp/bootstrap.js
+[INF] Writing content to sencha-ext-js-app-seed/myapp/classic.json
+[INF] merging 248 input resources into sencha-ext-js-app-seed/myapp/build/development/MyApp/classic/resources
+[INF] merged 248 resources into sencha-ext-js-app-seed/myapp/build/development/MyApp/classic/resources
+[INF] merging 12 input resources into sencha-ext-js-app-seed/myapp/build/development/MyApp
+[INF] merged 11 resources into sencha-ext-js-app-seed/myapp/build/development/MyApp
+[INF] Writing content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/slicer-temp/bootstrap.json
+[INF] Writing content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/slicer-temp/bootstrap.js
+[INF] writing sass content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss.tmp
+[INF] appending sass content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss.tmp
+[INF] appending sass content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss.tmp
+[INF] writing sass content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/config.rb
+[INF] Writing content to sencha-ext-js-app-seed/myapp/build/development/MyApp/classic.json
+[WRN] Use of 'require()' will be deprecated: sencha-ext-js-app-seed/myapp/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:1
+[WRN] Use @import instead
+[LOG] Fashion build starting for sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss
+[LOG] Fashion build complete for sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss
+[LOG] Fashion build completed in 10.739 sec.
+[INF] Appending content to sencha-ext-js-app-seed/myapp/bootstrap.js
+[INF] Writing content to sencha-ext-js-app-seed/myapp/classic.json
+[INF] 
+[INF] ======================================================================
+[INF] 
+[INF] Processing Build Descriptor : modern (development environment)
+[INF] Loading compiler context
+[INF] Loading app json manifest...
+[INF] Appending content to sencha-ext-js-app-seed/myapp/bootstrap.js
+[INF] Writing content to sencha-ext-js-app-seed/myapp/modern.json
+[INF] merging 390 input resources into sencha-ext-js-app-seed/myapp/build/development/MyApp/modern/resources
+[INF] merged 390 resources into sencha-ext-js-app-seed/myapp/build/development/MyApp/modern/resources
+[INF] merging 12 input resources into sencha-ext-js-app-seed/myapp/build/development/MyApp
+[INF] merged 0 resources into sencha-ext-js-app-seed/myapp/build/development/MyApp
+[INF] Writing content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/slicer-temp/bootstrap.json
+[INF] Writing content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/slicer-temp/bootstrap.js
+[INF] writing sass content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss.tmp
+[INF] appending sass content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss.tmp
+[INF] appending sass content to sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss.tmp
+[INF] Writing content to sencha-ext-js-app-seed/myapp/build/development/MyApp/modern.json
+[WRN] Use of 'require()' will be deprecated: sencha-ext-js-app-seed/myapp/ext/modern/theme-base/sass/etc/mixins/font-icon.scss:1
+[WRN] Use @import instead
+[LOG] Fashion build starting for sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss
+[LOG] Fashion build complete for sencha-ext-js-app-seed/myapp/build/temp/development/MyApp/sass/MyApp-all.scss
+[LOG] Fashion build completed in 4.446 sec.
+[INF] Appending content to sencha-ext-js-app-seed/myapp/bootstrap.js
+[INF] Writing content to sencha-ext-js-app-seed/myapp/modern.json
